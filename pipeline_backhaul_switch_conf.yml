@@ -1,0 +1,165 @@
+---
+resources:
+  - name: resource-generator
+    type: git
+    source:
+      uri: git@github.com:wzhou08817/switch-conf-file-generator.git
+      branch: develop
+      private_key: |
+        -----BEGIN OPENSSH PRIVATE KEY-----
+        b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn
+        NhAAAAAwEAAQAAAgEAzZFpWXXej52e7rgFTTb+oBAl+3PqIN+Gs37bW01D7K/ArKsP31xF
+        jj3GF+PMu3uCgWisCCRpKAX809N/Ric4bwKWtISMUvGbRedJpWP+YL6hK+Ieff2yjhkHmz
+        CYWIbmuqRJuOqivHp9UPeICYqznkDsW2jS3+NTBcgY1AFYWGCQSytBscREmZaaRD0X8W6K
+        NPnD3K7KdMt6xRReLYJ9rzHEbBh/VW8KsLraQrkiBxGPBRsT2bU6Q/HaySDdJkwywPtK1a
+        J8urnTe8CKDnHKZAKdN4oR4L0bo54U8BxtR/siSXjMCeR3zlNVi0zLToQUowWnaH0SYUVr
+        4bxx0XJc457ji2nzHHwmnBsrlGoTGexopSSGznSADACAT6I9f/dCi+S92slg9iULxgxIOF
+        DWId/BOYVOl+LkA294sIIWh3QWzUKAJRED31rxolobbbtKyiHdn+5HKtS+4wekVuKPc8lL
+        q8RcqZZKjON2h7kQp3CKOeNi09d8uUVNGjLGro+oNTfq5IwYrbpn9o2wxZAPR9XnHxlayR
+        fmMU8IEd+7rlwCMpdEkpLvETRQU9xzUnDVNsCpnARflA8KASHkXhEwC/aFAMvMlzBi50id
+        P13r1QUSQnlG5UoBShRtwArXCg7nHTG5IXRkpQxyUGqiNiDq/u+kMMRo2opExzWQ6rSbuw
+        cAAAdA6wE5uusBOboAAAAHc3NoLXJzYQAAAgEAzZFpWXXej52e7rgFTTb+oBAl+3PqIN+G
+        s37bW01D7K/ArKsP31xFjj3GF+PMu3uCgWisCCRpKAX809N/Ric4bwKWtISMUvGbRedJpW
+        P+YL6hK+Ieff2yjhkHmzCYWIbmuqRJuOqivHp9UPeICYqznkDsW2jS3+NTBcgY1AFYWGCQ
+        SytBscREmZaaRD0X8W6KNPnD3K7KdMt6xRReLYJ9rzHEbBh/VW8KsLraQrkiBxGPBRsT2b
+        U6Q/HaySDdJkwywPtK1aJ8urnTe8CKDnHKZAKdN4oR4L0bo54U8BxtR/siSXjMCeR3zlNV
+        i0zLToQUowWnaH0SYUVr4bxx0XJc457ji2nzHHwmnBsrlGoTGexopSSGznSADACAT6I9f/
+        dCi+S92slg9iULxgxIOFDWId/BOYVOl+LkA294sIIWh3QWzUKAJRED31rxolobbbtKyiHd
+        n+5HKtS+4wekVuKPc8lLq8RcqZZKjON2h7kQp3CKOeNi09d8uUVNGjLGro+oNTfq5IwYrb
+        pn9o2wxZAPR9XnHxlayRfmMU8IEd+7rlwCMpdEkpLvETRQU9xzUnDVNsCpnARflA8KASHk
+        XhEwC/aFAMvMlzBi50idP13r1QUSQnlG5UoBShRtwArXCg7nHTG5IXRkpQxyUGqiNiDq/u
+        +kMMRo2opExzWQ6rSbuwcAAAADAQABAAACABlg+WulBKwgXo3EREtLHdZvB/FqVx5l2kBw
+        ye4UtO0UqannmJcP0jqEX991LUJ8Nhl57bs3m4/oZVVViCIGF46E+EwjDRv0XiIcMthrZu
+        1Uu5sqWG9fkdq/NlQvhK9xQC0MuVlOBndUfAIx/SaIbDJ+e2+xmk8vxoExOfd6jwiiK05M
+        cdjbjUiU8ki4bitNZVyy9T5aif4vXOHV6OafdJrbfw+FWrsWcXBuMSIJryzGOyz7MdEv8Z
+        iP1F3+Y68luyJeI9gKLnHzHSvrEmBEJiOAux4vOpPPZQknLBiUud0oIQyHEFGsViov2aDQ
+        A02XOuEBgrCAuHMv2ejNlhOwlcz/l2OgRFT/Wm7TM2ZyAe3uuSWnNrhO0ln2+I6mAEdlJf
+        XoKjbKFaPIWkxErKdaTcwwJ9/T8dLi1L2Bx7nODJO+6UDnIBGGJ3aWqm8vbdmV4jYqVtpm
+        TAq4xkwGyCJ87WAZN6qoP/KzHch2ovqwbJariaF9QBYa/dnyUZGdCc/BGuGoBN7R7WACbt
+        p91l4OIpZhEcmGb06Ydul+OOJlFJ+GhJdfFftXcJw26TZJV7s42jV33L91B4vWo3yuQ/u6
+        xtIAWP8mn9m+Lbmx5WHvbuJQoSihjQhiiciDFH26plvZ2v0g2Dc47UEjLWJoBAdefO3E8W
+        Nt7miBbRSiLFQCMbv5AAABAE0p+a04006RugriD3JsobJAl3YhbVx/v0Fgzmb9fbp6B+Qc
+        +4IMo8lydcurzRQqkrAjlzGNclyGCDFvrDxcHPAR5R4RLVOOPxFnLOGFBARkGMkGnm/hj/
+        zKBfEuH9VJJNiRldKs1NY9IjiP7tMsjv78hNDednhm2g/myvE35NnBowHkCeV9S7DEhqmO
+        Ypfk5nGy4FuDYE+lUIyVTnCg7VcXqtjJXb/sI0yC20JjEQpeGgYgWo5hVHFpiCaxJjafTS
+        9Qj0aFRGCBFCLKDfa0g00UEBnY3iEAyWyQ0yfOpXZ+zhxQ78yXQOxjgO28Yy2I8bae7Ryn
+        /7PVDkeQht91Pe0AAAEBAOvjK+6u1t/c/Ej7JO7XUPXK+QzyeK6vE0o5KZoV8EoKJQSJQ+
+        cv+mGG0fKXYceSa2YWZhCVjo7qNjyR2hs/Yv6spymWdLUKPvt8FL6NrARkvxNO/E/k1qKh
+        KtOu8xI0WW4s+pZJlg65q4NEVgNLBaSFvm0l7VDd+/p1FGaAq/5rnq3qpLY3jFhxKlXAxv
+        qbKEOTW39AzxytiLJ+sISoPmNbK7cZRkSzvihCL34WSx81gxJoDCN6ZxM9dHw1Op1ubJKN
+        I4XyIRND6IxhTTRCGtd9tnHFactXsRcFwn2r29CRdxNYbfjeyGmImf2eaRO6+VqlF6ghu6
+        OHoTcKTR7/qYUAAAEBAN8YcbeS89SwMiLtdu9/v/T31afgyus5xTEWl9LX4QKCwRwAWmDV
+        Q1V4+VJkbST17QY16pcwnBXw/rL5M68QCaz5hBaKboJa3VbaNHtXz1P/gwzhMkd0bSplM2
+        gw9aw6KjBZlArG00Q4dajb/wqfN8xzcXeku2Xfuun6Khn/7wxL6M50Fr3LjcmnKXi9qJHz
+        7ttQzX+PjNSKg021j94pB0UPQLlV51w/9G09eCpo6EsHcInEqyCueWN5Kus1QtCqeBaTnN
+        2ZZdF0bWSGfs8NLhdSgYCaYpuLaVAEtblV4QDUz5qmLj3XXV3DSHa/CO4LV8Fh7hHflJuT
+        OTEWgktLkhsAAAAId3pob3UyNjgBAgM=
+        -----END OPENSSH PRIVATE KEY-----
+  - name: resource-output
+    type: git
+    source:
+      branch: develop
+      uri: git@github.com:wzhou08817/conf-file-output.git
+      private_key: |
+        -----BEGIN OPENSSH PRIVATE KEY-----
+        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
+        OTEWgktLkhsAAAAId3pob3UyNjgBAgM=
+        -----END OPENSSH PRIVATE KEY-----
+
+
+jobs:
+  - name: job-generate-conf-file
+    serial: true
+    plan:
+      - get: resource-generator
+        trigger: true
+      - get: resource-output
+      - task: create-conf-file
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: 
+              repository: wzhou08817/pipeline
+              tag: '2.0'
+              
+          inputs:
+            - name: resource-generator
+            - name: resource-output
+          outputs:
+            - name: updated-output
+          run:
+            #path: resource-generator/create_conf_file.sh
+            path: bash
+            args:
+            - -exc
+            - |
+              ls -lR
+              ./resource-generator/create_conf_file.sh
+              
+      - put: resource-output
+        params: 
+          repository: updated-output
+
+  - name: job-show-conf-file
+    plan:
+      - get: resource-generator
+      - get: resource-output
+        passed: [job-generate-conf-file]
+        trigger: true
+      - task: show-conf-file
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: {repository: busybox}
+          inputs:
+            - name: resource-output
+          run:
+            path: cat
+            args: [resource-output/backhaul-switch.conf]
